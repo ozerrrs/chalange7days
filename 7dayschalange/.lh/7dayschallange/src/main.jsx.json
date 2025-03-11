@@ -1,0 +1,22 @@
+{
+    "sourceFile": "7dayschallange/src/main.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1741165571585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1741170681379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,5 @@\n       <CssBaseline />\n       <App />\n     </ThemeProvider>\n   </React.StrictMode>\n-);\n\\ No newline at end of file\n+);\n"
+                }
+            ],
+            "date": 1741165571585,
+            "name": "Commit-0",
+            "content": "import * as React from \"react\";\nimport * as ReactDOM from \"react-dom/client\";\nimport { ThemeProvider } from \"@mui/material/styles\";\nimport { CssBaseline } from \"@mui/material\";\nimport theme from \"./theme/theme\";\nimport App from \"./App\";\nimport \"./index.css\";\nReactDOM.createRoot(document.getElementById(\"root\")).render(\n  <React.StrictMode>\n    <ThemeProvider theme={theme}>\n      <CssBaseline />\n      <App />\n    </ThemeProvider>\n  </React.StrictMode>\n);"
+        }
+    ]
+}

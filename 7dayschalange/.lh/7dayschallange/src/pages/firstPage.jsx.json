@@ -1,0 +1,26 @@
+{
+    "sourceFile": "7dayschallange/src/pages/firstPage.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1741170500090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1741170537506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from \"react\";\n \n-const firstPage = () => {\n+const FirstPage = () => {\n   return <div></div>;\n };\n \n-export default firstPage;\n+export default FirstPage;\n"
+                },
+                {
+                    "date": 1741170976979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n+import { Page } from \"@mui/material\";\n import React from \"react\";\n \n const FirstPage = () => {\n-  return <div></div>;\n+  return <div>\n+    <Page></Page></div>;\n };\n \n export default FirstPage;\n"
+                }
+            ],
+            "date": 1741170500090,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\nconst firstPage = () => {\n  return (\n    <div>\n      \n    </div>\n  )\n}\n\nexport default firstPage\n"
+        }
+    ]
+}

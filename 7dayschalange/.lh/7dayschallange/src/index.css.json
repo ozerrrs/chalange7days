@@ -1,0 +1,26 @@
+{
+    "sourceFile": "7dayschallange/src/index.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1741165222352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1741170616846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n #root {\n   height: 100vh;\n   width: 100vw;\n+  background-color:  #f0f7ff;\n }\n"
+                },
+                {
+                    "date": 1741170626473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n #root {\n   height: 100vh;\n   width: 100vw;\n-  background-color: #f0f7ff;\n+  background-color: black;\n }\n"
+                }
+            ],
+            "date": 1741165222352,
+            "name": "Commit-0",
+            "content": "#root{\n  height: 100vh;\n  width: 100vw;\n}"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "sourceFile": "7dayschallange/src/theme/theme.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1741170408988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1741170724111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-const theme = createTheme({\n+export default  theme = createTheme({\n   typography: {\n     fontFamily: \"'Ubuntu', sans-serif\",\n     h4: {\n       fontWeight: 700,\n"
+                },
+                {
+                    "date": 1741170755828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+import { createTheme } from \"@mui/material/styles\";\n export default theme = createTheme({\n   typography: {\n     fontFamily: \"'Ubuntu', sans-serif\",\n     h4: {\n"
+                }
+            ],
+            "date": 1741170408988,
+            "name": "Commit-0",
+            "content": "const theme = createTheme({\n    typography: {\n      fontFamily: \"'Ubuntu', sans-serif\",\n      h4: {\n        fontWeight: 700,\n      },\n      h2: {\n        fontWeight: 500,\n      },\n    },\n    components: {\n      MuiCssBaseline: {\n        styleOverrides: `\n          body {\n            background-color: #f0f7ff;\n          }\n        `,\n      },\n    },\n  });\n  "
+        }
+    ]
+}
